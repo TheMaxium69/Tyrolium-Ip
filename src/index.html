@@ -3,21 +3,65 @@
   <head>
     <meta charset="utf-8" />
     <title>Mon adresse IP - Tyrolium / SolidServ</title>
-    <meta name="theme-color" content="#111827" />
     <base href="/" />
 
+    <!-- ═══════════ SEO BASE ═══════════ -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Découvrez votre adresse IP publique instantanément, telle que vue par l'infrastructure Tyrolium / SolidServ. Outil gratuit, rapide et sans inscription." />
+    <meta name="keywords" content="mon ip, quelle est mon ip, adresse ip publique, IPv4, whats my ip, Tyrolium, SolidServ, outil réseau" />
+    <meta name="author" content="Tyrolium" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="language" content="French" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
 
-    <!-- ═══════════ DÉRÉFÉRENCEMENT MOTEURS DE RECHERCHE ═══════════
-         Page utilitaire interne - ne doit pas être indexée.
-    ════════════════════════════════════════════════════════════════ -->
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="googlebot" content="noindex, nofollow" />
-    <meta name="bingbot" content="noindex, nofollow" />
+    <!-- ═══════════ OPEN GRAPH (Facebook, Discord, LinkedIn…) ═══════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mon IP" />
+    <meta property="og:title" content="Mon adresse IP - Tyrolium / SolidServ" />
+    <meta property="og:description" content="Découvrez votre adresse IP publique instantanément, telle que vue par l'infrastructure Tyrolium / SolidServ. Outil gratuit, rapide et sans inscription." />
+    <meta property="og:image" content="https://ip.tyrolium.fr/assets/tyrolium-ui/projects/Tyrolium.png" />
+    <meta property="og:image:alt" content="Logo Tyrolium" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://ip.tyrolium.fr" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
 
+    <!-- ═══════════ TWITTER / X CARD ═══════════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mon adresse IP - Tyrolium / SolidServ" />
+    <meta name="twitter:description" content="Découvrez votre adresse IP publique instantanément, telle que vue par l'infrastructure Tyrolium / SolidServ. Outil gratuit, rapide et sans inscription." />
+    <meta name="twitter:image" content="https://ip.tyrolium.fr/assets/tyrolium-ui/projects/Tyrolium.png" />
+    <meta name="twitter:image:alt" content="Logo Tyrolium" />
+
+    <!-- ═══════════ ICÔNES & CANONICAL ═══════════ -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/tyrolium-ui/projects/onglets/Tyrolium-32x.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/tyrolium-ui/projects/onglets/Tyrolium-16x.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/tyrolium-ui/projects/onglets/Tyrolium-180x.png" />
+    <link rel="canonical" href="https://ip.tyrolium.fr" />
+
+    <!-- ═══════════ JSON-LD (Schema.org) ═══════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Mon IP",
+      "description": "Découvrez votre adresse IP publique instantanément, telle que vue par l'infrastructure Tyrolium / SolidServ.",
+      "url": "https://ip.tyrolium.fr",
+      "image": "https://ip.tyrolium.fr/assets/tyrolium-ui/projects/Tyrolium.png",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web",
+      "inLanguage": ["fr", "en"],
+      "countryOfOrigin": "FR",
+      "author": {
+        "@type": "Organization",
+        "name": "Tyrolium",
+        "url": "https://tyrolium.fr"
+      }
+    }
+    </script>
   </head>
   <body>
     <app-root></app-root>
