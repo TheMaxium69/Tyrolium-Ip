@@ -22,7 +22,7 @@ export class Home implements OnInit {
   readonly ipChars = computed(() => (this.ip() ?? '').split(''));
 
   ngOnInit() {
-    fetch('https://ip.tyrolium.fr/?api=test')
+    fetch('https://ip.tyrolium.fr/api/')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
