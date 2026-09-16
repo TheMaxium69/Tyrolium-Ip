@@ -1,2 +1,2 @@
-# TyroIp-WebSite
-Site de récupération d'ip
+# Tyrolium-IP
+Page affichant l'adresse IP publique du visiteur - infrastructure Tyrolium / SolidServ

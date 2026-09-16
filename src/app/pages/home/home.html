@@ -1,0 +1,99 @@
+<div class="ip-page">
+
+  <!-- ─── Hero ──────────────────────────────────────────────────────────── -->
+
+  <div class="ip-hero">
+    <div class="ip-hero__noise"></div>
+
+    <div class="ip-hero__inner">
+
+      <!-- Icon -->
+      <div class="ip-icon-wrap">
+        <i class="ri-map-pin-user-fill ip-icon"></i>
+      </div>
+
+      <!-- Label -->
+      <p class="ip-label">
+        @if (error()) {
+          {{ lang() === 'en' ? 'Something went wrong' : 'Une erreur est survenue' }}
+        } @else {
+          {{ lang() === 'en' ? 'Your public IP address is' : 'Votre adresse IP publique est' }}
+        }
+      </p>
+
+      <!-- IP -->
+      @if (loading()) {
+        <div class="ip-skeleton"></div>
+      } @else if (error()) {
+        <h1 class="ip-value ip-value--error">
+          {{ lang() === 'en' ? 'IP not retrieved' : 'IP non récupérée' }}
+        </h1>
+      } @else {
+        <h1 class="ip-value">
+          @for (char of ipChars(); track $index) {
+            <span class="ip-l" [style.animation-delay.s]="$index * 0.12">{{ char }}</span>
+          }
+        </h1>
+      }
+
+      <!-- Subtitle -->
+      <p class="ip-sub">
+        @if (error()) {
+          {{ lang() === 'en'
+            ? 'We could not retrieve your IP address right now. Please try again later.'
+            : 'Nous n\'avons pas pu récupérer votre adresse IP pour le moment. Réessayez plus tard.' }}
+        } @else {
+          {{ lang() === 'en'
+            ? 'This is the IP address you are browsing with, as seen by the Tyrolium / SolidServ infrastructure.'
+            : 'Il s\'agit de l\'adresse IP avec laquelle vous naviguez, telle que vue par l\'infrastructure Tyrolium / SolidServ.' }}
+        }
+      </p>
+
+      <!-- Links -->
+      <div class="ip-links">
+        <a href="https://tyrolium.fr" class="ip-btn ip-btn--primary">
+          <i class="ri-home-line"></i>
+          Tyrolium
+        </a>
+        <a href="https://speedtest.tyrolium.fr" class="ip-btn ip-btn--ghost">
+          <i class="ri-speed-up-line"></i>
+          Speedtest
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Wave -->
+    <div class="ip-hero__wave">
+      <svg viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs><path id="ipw" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/></defs>
+        <use href="#ipw" x="48" y="0" fill="rgba(246,247,251,0.5)"/>
+        <use href="#ipw" x="48" y="3" fill="rgba(246,247,251,0.35)"/>
+        <use href="#ipw" x="48" y="7" fill="#f6f7fb"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ─── SolidServ Banner ───────────────────────────────────────────────── -->
+
+  <div class="ip-body">
+    <div class="ip-container">
+
+      <a href="https://solidserv.fr" target="_blank" rel="noopener" class="ip-solidserv">
+        <div class="ip-solidserv__left">
+          <img src="/assets/tyrolium-ui/projects/SolidServ.png" alt="SolidServ" class="ip-solidserv__logo">
+          <div>
+            <span class="ip-solidserv__title">{{ lang() === 'en' ? 'Need a server?' : 'Besoin d\'un serveur ?' }}</span>
+            <span class="ip-solidserv__sub">{{ lang() === 'en' ? 'Rent a VPS or dedicated server via SolidServ - a Tyrolium subsidiary.' : 'Louez un VPS ou un serveur dédié via SolidServ - filiale de Tyrolium.' }}</span>
+          </div>
+        </div>
+        <span class="ip-solidserv__cta">
+          {{ lang() === 'en' ? 'Discover SolidServ' : 'Découvrir SolidServ' }}
+          <i class="ri-arrow-right-line"></i>
+        </span>
+      </a>
+
+    </div>
+  </div>
+
+</div>
