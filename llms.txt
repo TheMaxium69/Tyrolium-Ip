@@ -1,0 +1,19 @@
+# Mon IP
+
+> Découvrez votre adresse IP publique instantanément, telle que vue par l'infrastructure Tyrolium / SolidServ. Outil gratuit, rapide et sans inscription.
+
+Site officiel : https://ip.tyrolium.fr (page d'accueil : Mon adresse IP - Tyrolium / SolidServ).
+Chaque page existe en français et en anglais : version anglaise = même adresse précédée de /en (ex. https://ip.tyrolium.fr/en).
+Fait partie du groupe Tyrolium, holding technologique française fondée en 2017 par Maxime Tournier. Contact : contact@tyrolium.fr.
+
+## Groupe Tyrolium
+
+- [Gamenium](https://gamenium.fr): Gamenium est un SaaS gratuit pour les joueurs : consultez les actualités JV, gérez votre collection dans le moindre détail et explorez une base de référence complète de jeux vidéo. Une filiale de Tyrolium.
+- [Influnias](https://influnias.fr): Influnias est une agence de créateurs de contenu qui donne aux talents du numérique les moyens de grandir. De la stratégie éditoriale aux partenariats de marque, nous accompagnons chaque créateur avec expertise et passion. Une filiale de Tyrolium.
+- [NexiumiaCRM](https://nexiumiacrm.fr): NexiumiaCRM est un CRM professionnel. Gérez vos contacts, votre pipeline et votre activité avec un outil hébergé et conçu avec le savoir-faire français. Une filiale de Tyrolium.
+- [SolidServ](https://solidserv.fr): SolidServ est un hébergeur de serveurs situé en France pour les entreprises et les particuliers. VPS, hébergement web, serveurs dédiés et serveurs de jeu - une infrastructure fiable et haute performance pour tous vos projets. Une filiale de Tyrolium.
+- [TyroCiel](https://tyrociel.fr): TyroCiel est un studio de jeu-vidéo français. Nous créons des expériences gaming immersives et originales avec passion et liberté créative totale. Une filiale de Tyrolium.
+- [Tyrolium](https://tyrolium.fr): Tyrolium est une holding technologique française fondée en 2017. De la conception web à l'infrastructure cloud, nous accompagnons chaque projet avec expertise et passion. Nous développons notre propre écosystème : hébergement, gaming, CRM et réseaux sociaux. Fondé par Maxime Tournier.
+- [TyroServ](https://tyroserv.fr): TyroServ est un serveur Minecraft PVP Faction moddé. Découvrez le TyroMod, notre mod exclusif avec la fusion de minerais. Saison 3 en cours de développement. Une filiale de Tyrolium.
+- [Useritium](https://useritium.fr): Useritium est un compte universel français gratuit. Une seule identité pour accéder à tout l'écosystème, hébergé en France par SolidServ. Une filiale de Tyrolium.
+- [Vturias](https://vturias.fr): Vturias est une agence de VTubing française dédiée à la création, la promotion et le développement des talents virtuels. Une filiale de Tyrolium, née du partenariat avec la VTubeuse AuroreTVv.
