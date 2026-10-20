@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "Mon IP",
-  "short_name": "Mon IP",
+  "name": "Tyrolium IP",
+  "short_name": "Tyrolium IP",
   "description": "Découvrez votre adresse IP publique instantanément, telle que vue par l'infrastructure Tyrolium / SolidServ. Outil gratuit, rapide et sans inscription.",
   "lang": "fr",
   "dir": "ltr",
